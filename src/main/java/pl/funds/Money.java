@@ -35,4 +35,9 @@ public class Money {
         return new Money(this.amount.multiply(BigDecimal.valueOf(percent))
                 .divide(ONE_HUNDRED));
     }
+
+    @Override
+    public String toString() {
+        return String.valueOf(amount) + "PLN";
+    }
 }

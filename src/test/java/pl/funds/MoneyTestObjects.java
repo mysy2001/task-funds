@@ -16,7 +16,7 @@ public class MoneyTestObjects {
 
     public static final Money MONEY_1000 = Money.of(1000);
 
-    public static final Money MONEY_1001 = Money.of(10001);
+    public static final Money MONEY_10001 = Money.of(10001);
 
     public static final Money MONEY_2500 = Money.of(2500);
 

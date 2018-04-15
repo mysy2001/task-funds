@@ -5,10 +5,12 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import pl.funds.Fund.Type;
 
 @RequiredArgsConstructor(staticName = "of")
+@Getter
 public class Funds {
 
     private final Set<Fund> funds;

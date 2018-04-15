@@ -15,6 +15,8 @@
 		<dependency.lombok.version>1.6.20</dependency.lombok.version>
 		<dependency.mockito.version>1.10.19</dependency.mockito.version>
 		<dependency.assertj.version>3.9.1</dependency.assertj.version>
+		<dependency.slf4j.version>1.7.25</dependency.slf4j.version>
+		<dependency.logback.version>1.1.11</dependency.logback.version>
 
 		<dependency.junit.version>4.12</dependency.junit.version>
 		<dependency.junit.jupiter.version>5.1.0</dependency.junit.jupiter.version>
@@ -27,6 +29,27 @@
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>23.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${dependency.slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jul-to-slf4j</artifactId>
+			<version>${dependency.slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<version>${dependency.slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>${dependency.logback.version}</version>
 		</dependency>
 
 		<dependency>
