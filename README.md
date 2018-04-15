@@ -98,3 +98,5 @@ Wyliczony podział:
 | 6 | Pieniężne | Fundusz Pieniężny 1 | 500 PLN | 5% |
 
 #### How to run it
+
+ mvn -Dtest=InvestmentTest test
